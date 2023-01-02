@@ -25,6 +25,7 @@ void print(int t, int s) {
 }
 
 int main() {
+    while (1) {
     ///This part changes the size
     for (int I = 0; I < 3; ++I) {
         for (int i = 1; i <= 20; ++i) {
@@ -64,6 +65,7 @@ int main() {
         system("clear");
         print(3, i);
         for (int s = 0; s < TIME; ++s);
+    }
     }
     return 0;
 }
